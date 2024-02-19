@@ -2,6 +2,16 @@
 
 ## Note Taking Application Documentation
 
+### PythonAnywhere URL
+
+This app is hosted on PythonAnywhere at the following URL:
+
+```
+https://saikumar.pythonanywhere.com/
+```
+
+Please note that due to limited features and storage capacity on PythonAnywhere, occasional errors may occur.
+
 ### Introduction
 
 The Notes Taking API provides endpoints for users to perform various operations related to notes management. It allows users to sign up, log in, create, update, share notes, and retrieve the version history of notes.
