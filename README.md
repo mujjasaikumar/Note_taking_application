@@ -19,7 +19,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 #### 1. Login
 
 - **URL:** `/login`
-- **Methods:** `POST`, `GET`
+- **Methods:** `POST`
 - **Description:** Authenticates users and generates a JWT token for authorized access to protected endpoints.
 - **Parameters:**
   - `username`: Username of the user (required)
