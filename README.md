@@ -6,9 +6,27 @@
 
 The Notes Taking API provides endpoints for users to perform various operations related to notes management. It allows users to sign up, log in, create, update, share notes, and retrieve the version history of notes.
 
-### Base URL
+### Installation
 
-The base URL for accessing the API is `http://localhost:5000/` when running locally.
+To run the Note Management System locally, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/mujjasaikumar/Note_taking_application.git
+```
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+. Run the application:
+
+```
+python main.py
+```
 
 ### Authentication
 
@@ -167,3 +185,23 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
   - `note_id`: ID of the note to be shared (required)
   - `shared_with_user_id`: ID of the user to whom the note will be shared (required)
 
+
+### Testing
+
+The application includes unit tests for each API endpoint. To run the tests, execute the following command:
+
+```
+python test_main.py
+```
+
+### Scope of Enhancement
+
+1. **User Profile Management**: Implement features for users to manage their profiles, including updating email addresses and changing passwords.
+
+2. **Tagging System**: Implement a tagging system for notes, allowing users to categorize and organize their notes efficiently.
+
+
+### Contributors
+
+- Saikumar Mujja
+---
