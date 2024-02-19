@@ -50,7 +50,7 @@ class NotesShared(db.Model):
     shared_with_user_id = db.Column(db.Integer, db.ForeignKey('user.userid'), nullable=False)
 
 
-@app.route('/login', methods=['POST', 'GET'])
+@app.route('/login', methods=['POST'])
 def login():
     if request.method == 'POST':
         # Process POST request for login
@@ -63,10 +63,6 @@ def login():
                                app.config['SECRET_KEY'])
             return jsonify(({'message': f'Login successful: Logged in as {username}', 'token': token}))
         return jsonify({'message': 'Invalid credentials'}), 401
-    else:
-        # Handle GET request for login (if needed)
-        # For example, you might want to return a login form
-        return jsonify({'message': 'This endpoint only accepts POST requests for login'})
 
 
 # Signup endpoint with email validation
@@ -97,10 +93,6 @@ def signup():
         db.session.commit()
 
         return jsonify({'message': 'Signup successful'}), 201
-    else:
-        # Handle GET request for signup (if needed)
-        # For example, you might want to return a signup form
-        return jsonify({'message': 'This endpoint only accepts POST requests for signup'})
 
 
 @app.route('/notes/create', methods=['POST'])
