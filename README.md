@@ -1,6 +1,6 @@
 
 
-## Notes Taking API Documentation
+## Note Taking Application Documentation
 
 ### Introduction
 
