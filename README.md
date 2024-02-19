@@ -10,7 +10,7 @@ This app is hosted on PythonAnywhere at the following URL:
 https://saikumar.pythonanywhere.com/
 ```
 
-Please note that due to limited features and storage capacity on PythonAnywhere, occasional errors may occur.
+Please note that due to limited features and storage capacity on free tier PythonAnywhere account, occasional errors may occur.
 
 ### Introduction
 
