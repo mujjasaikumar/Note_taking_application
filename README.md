@@ -22,7 +22,7 @@ git clone https://github.com/mujjasaikumar/Note_taking_application.git
 pip install -r requirements.txt
 ```
 
-. Run the application:
+3. Run the application:
 
 ```
 python main.py
