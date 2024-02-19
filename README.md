@@ -1,5 +1,4 @@
 
----
 
 ## Notes Taking API Documentation
 
@@ -167,4 +166,4 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
   - `password`: Password of the user (required)
   - `note_id`: ID of the note to be shared (required)
   - `shared_with_user_id`: ID of the user to whom the note will be shared (required)
--
+
