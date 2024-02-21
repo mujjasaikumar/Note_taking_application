@@ -38,10 +38,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Authentication
-
-Authentication is performed using JSON Web Tokens (JWT) generated upon successful login. The token can be included in the request headers for authorized access to protected endpoints.
-
 ### Endpoints
 
 #### 1. Login
