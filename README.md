@@ -38,6 +38,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### Database Schema
+![image](https://github.com/mujjasaikumar/Note_taking_application/assets/95629853/07df8e59-e61e-4b7e-9150-37edf0c816c4)
+
+
 ### Endpoints
 
 #### 1. Login
