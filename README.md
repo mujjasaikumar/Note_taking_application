@@ -18,7 +18,7 @@ The Notes Taking API provides endpoints for users to perform various operations 
 
 
 ### Database Schema
-![image](https://github.com/mujjasaikumar/Note_taking_application/assets/95629853/07df8e59-e61e-4b7e-9150-37edf0c816c4)
+![image](https://github.com/mujjasaikumar/Note_taking_application/assets/95629853/ffff0ec7-a481-44a9-9447-a4218eebcf8e)
 
 
 ### Installation
