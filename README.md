@@ -16,6 +16,11 @@ Please note that due to limited features and storage capacity on free tier Pytho
 
 The Notes Taking API provides endpoints for users to perform various operations related to notes management. It allows users to sign up, log in, create, update, share notes, and retrieve the version history of notes.
 
+
+### Database Schema
+![image](https://github.com/mujjasaikumar/Note_taking_application/assets/95629853/07df8e59-e61e-4b7e-9150-37edf0c816c4)
+
+
 ### Installation
 
 To run the Note Management System locally, follow these steps:
@@ -37,10 +42,6 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-
-### Database Schema
-![image](https://github.com/mujjasaikumar/Note_taking_application/assets/95629853/07df8e59-e61e-4b7e-9150-37edf0c816c4)
-
 
 ### Endpoints
 
