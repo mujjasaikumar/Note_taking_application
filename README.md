@@ -40,7 +40,7 @@ python main.py
 
 ### Authentication
 
-Authentication is performed using JSON Web Tokens (JWT) generated upon successful login. The token is included in the request headers for authorized access to protected endpoints.
+Authentication is performed using JSON Web Tokens (JWT) generated upon successful login. The token can be included in the request headers for authorized access to protected endpoints.
 
 ### Endpoints
 
@@ -212,7 +212,7 @@ python test_main.py
    
 3. **Secure Password Storage**: Implement secure password storage in the database using hashing and salting techniques.
 
-4. **Authentication based login**: Implement authentication for secure login.
+4. **Authentication based login**: Implement OTP based authentication for secure login.
 
 
 ### Contributors
