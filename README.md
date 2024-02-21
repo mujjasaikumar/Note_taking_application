@@ -72,7 +72,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/signup`
 - **Method:** `POST`
 - **Description:** Allows users to create a new account.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `email`: Email address of the user (required)
   - `password`: Password of the user (required)
@@ -101,7 +101,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/notes/create`
 - **Method:** `POST`
 - **Description:** Allows users to create a new note.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `password`: Password of the user (required)
   - `content`: Content of the note (required)
@@ -119,7 +119,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/notes/<int:note_id>`
 - **Method:** `GET`
 - **Description:** Allows users to retrieve a specific note by its ID.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `password`: Password of the user (required)
 - **Response:**
@@ -148,7 +148,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/notes/<int:note_id>`
 - **Method:** `PUT`
 - **Description:** Allows users to update the content of a specific note.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `password`: Password of the user (required)
   - `content`: New content of the note (required)
@@ -165,7 +165,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/notes/version-history/<int:note_id>`
 - **Method:** `GET`
 - **Description:** Allows users to retrieve the version history of a specific note.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `password`: Password of the user (required)
 - **Response:**
@@ -189,7 +189,7 @@ Authentication is performed using JSON Web Tokens (JWT) generated upon successfu
 - **URL:** `/notes/share`
 - **Method:** `POST`
 - **Description:** Allows users to share a specific note with other users.
-- **Parameters:**
+- **Parameters:** Passed as raw JSON data in the request body.
   - `username`: Username of the user (required)
   - `password`: Password of the user (required)
   - `note_id`: ID of the note to be shared (required)
@@ -209,6 +209,10 @@ python test_main.py
 1. **User Profile Management**: Implement features for users to manage their profiles, including updating email addresses and changing passwords.
 
 2. **Tagging System**: Implement a tagging system for notes, allowing users to categorize and organize their notes efficiently.
+   
+3. **Secure Password Storage**: Implement secure password storage in the database using hashing and salting techniques.
+
+4. **Authentication based login**: Implement authentication for secure login.
 
 
 ### Contributors
